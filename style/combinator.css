@@ -1,0 +1,27 @@
+h1,
+h2 {
+  color: blueviolet;
+}
+div p {
+  color: brown;
+}
+.list li {
+  color: blue;
+}
+.list .done {
+  color: green;
+}
+ul p {
+  font-size: 60%;
+}
+.header {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header a {
+  text-decoration: none;
+  color: #000;
+}
+.header a:hover {
+  color: #007bff;
+}

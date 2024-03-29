@@ -1,0 +1,82 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+  }
+  
+  nav a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    background-color: #555;
+  }
+  
+  .name h1 {
+    color: #333;
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+  
+  .name h2 {
+    color: #666;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .name span {
+    color: #007bff;
+  }
+  .name a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #666;
+  }
+  .name a:hover {
+    color:red;
+  }
+  
+  .aldi {
+    border-radius: 50%;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+    border-style: solid;
+    margin-top: 10px;
+  }
+
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 0 20px 0 20px;
+    background-color: #333;
+  }
+  
+  .contact-icons a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+  .contact-icons a:hover {
+    background-color: #555;
+    transform: translateY(-3px);
+  }
